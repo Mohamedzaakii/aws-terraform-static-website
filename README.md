@@ -98,15 +98,18 @@ aws s3 sync ./site/2137_barista_cafe s3://<bucket-name>
 ## 🖥️ Website Preview
 ![Static Site Preview](assets/site-preview.png)  
 ## ☁️ AWS Resources
-| S3 Bucket | CloudFront Distribution |
-|------------|--------------------------|
-| ![S3 Bucket](assets/s3-bucket.png) | ![CloudFront](assets/cloudfront-distribution.png) |
+- S3 Bucket
+  ![S3 Bucket](assets/s3-bucket.png) 
+- CloudFront Distribution
+  ![CloudFront](assets/cloudfront-distribution.png)
+
 
 ## 🧹 Destroy Infrastructure
 #### To clean up all resources and avoid any future charges:
 ```bash
 terraform destroy
 ```
+
 
 
 
