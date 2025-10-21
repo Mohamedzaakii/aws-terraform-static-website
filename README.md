@@ -20,6 +20,9 @@ This project demonstrates how to **host a static website** on **AWS** using **Te
 | **IAM Policies**      | Controlled Access Management |
 | **AWS CLI / Console** | Verification & Screenshots   |
 
+## 📊 System Architecture
+![Architecture](https://github.com/Mohamedzaakii/aws-terraform-static-website/blob/main/System%20Architecture.jpg)
+
 ## 📁 Project Structure
 ```text
 aws-terraform-static-website/
@@ -109,6 +112,7 @@ aws s3 sync ./site/2137_barista_cafe s3://<bucket-name>
 ```bash
 terraform destroy
 ```
+
 
 
 
